@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2048 Guide</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#games" aria-label="Back to MaxxGames">
+        <span class="brand-mark">MG</span>
+        <span>MaxxGames</span>
+      </a>
+      <nav aria-label="Guide navigation">
+        <a href="index.html#games">Games</a>
+        <a href="#rules">Rules</a>
+        <a href="#strategy">Strategy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="guide-hero">
+        <div>
+          <p class="eyebrow">2048</p>
+          <h1>Slide, merge, and build the 2048 tile.</h1>
+          <p>
+            2048 is a compact puzzle game where matching numbers combine. Keep
+            your board organized and aim for one high-value corner.
+          </p>
+          <a class="primary-action" href="index.html#games">Back to downloads</a>
+        </div>
+        <img src="assets/2048.png" alt="2048 gameplay screenshot showing numbered tiles and a win screen">
+      </section>
+
+      <section class="guide-section" id="rules">
+        <div class="section-heading">
+          <p class="eyebrow">Basics</p>
+          <h2>How to play</h2>
+        </div>
+        <ol class="guide-list">
+          <li><strong>Use arrow keys or swipes.</strong> Every move slides all tiles in one direction.</li>
+          <li><strong>Merge matching numbers.</strong> Two 2 tiles become 4, two 4 tiles become 8, and so on.</li>
+          <li><strong>Watch new tiles.</strong> A new 2 or 4 appears after every move.</li>
+          <li><strong>Reach 2048.</strong> Make the 2048 tile to win, then keep playing for a higher score.</li>
+          <li><strong>Avoid filling the board.</strong> If there are no moves left, the game ends.</li>
+        </ol>
+      </section>
+
+      <section class="guide-section" id="strategy">
+        <div class="section-heading">
+          <p class="eyebrow">Plan</p>
+          <h2>Strategy</h2>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card">
+            <h3>Pick a corner</h3>
+            <p>Keep your biggest tile in one corner and build smaller tiles toward it.</p>
+          </article>
+          <article class="guide-card">
+            <h3>Use three directions</h3>
+            <p>Try not to move away from your chosen corner unless there is no other useful move.</p>
+          </article>
+          <article class="guide-card">
+            <h3>Keep a chain</h3>
+            <p>Arrange values like 128, 64, 32, and 16 near each other so merges stay controlled.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

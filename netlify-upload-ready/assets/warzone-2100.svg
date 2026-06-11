@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Warzone 2100 RTS preview">
+  <defs><linearGradient id="dust" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#6b4f3f"/><stop offset=".55" stop-color="#2f353d"/><stop offset="1" stop-color="#15191f"/></linearGradient></defs>
+  <rect width="1200" height="525" fill="url(#dust)"/>
+  <path d="M0 358c160-72 310-32 460-64c198-42 320-116 740-48v279H0Z" fill="#4f3a2d"/>
+  <g stroke="#111" stroke-width="9">
+    <rect x="164" y="270" width="156" height="84" rx="14" fill="#69707a"/>
+    <circle cx="196" cy="358" r="24" fill="#222"/><circle cx="286" cy="358" r="24" fill="#222"/>
+    <path d="M242 270l150-58" stroke="#3b424c" stroke-width="22" stroke-linecap="round"/>
+    <rect x="720" y="214" width="210" height="118" rx="16" fill="#565c66"/>
+    <path d="M760 214v-74h120v74" fill="#434a54"/>
+    <path d="M880 176l150-52" stroke="#434a54" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="1030" cy="124" r="18" fill="#ffd166"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="70" font-weight="900" fill="#fff">Warzone 2100</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#f1d18a">3D real-time strategy</text>
+</svg>

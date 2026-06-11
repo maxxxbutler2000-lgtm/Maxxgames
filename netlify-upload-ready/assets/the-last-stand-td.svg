@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="The Last Stand tower defense gameplay preview">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#2b2548"/>
+      <stop offset=".5" stop-color="#6c2f57"/>
+      <stop offset="1" stop-color="#d36b43"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#sky)"/>
+  <rect y="352" width="1200" height="173" fill="#31241f"/>
+  <path d="M0 367 C155 327 250 384 390 342 C545 296 642 373 800 326 C962 278 1034 328 1200 280 L1200 525 L0 525Z" fill="#5d4633"/>
+  <g stroke="#111" stroke-width="10">
+    <rect x="516" y="173" width="160" height="214" rx="12" fill="#8f6b45"/>
+    <rect x="478" y="136" width="236" height="66" rx="10" fill="#b58b57"/>
+    <path d="M520 136v-58h44v58M630 136v-58h44v58" fill="#b58b57"/>
+    <circle cx="596" cy="244" r="42" fill="#ffd166"/>
+    <path d="M596 244 L842 188" fill="none" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="842" cy="188" r="18" fill="#ffdf70"/>
+  </g>
+  <g fill="#293241" stroke="#111" stroke-width="8">
+    <path d="M170 358 l24 -50 l24 50 v53 h-48Z"/>
+    <circle cx="194" cy="288" r="24"/>
+    <path d="M286 366 l26 -56 l26 56 v57 h-52Z"/>
+    <circle cx="312" cy="291" r="26"/>
+    <path d="M930 356 l24 -50 l24 50 v53 h-48Z"/>
+    <circle cx="954" cy="287" r="24"/>
+    <path d="M1040 376 l27 -60 l27 60 v58h-54Z"/>
+    <circle cx="1067" cy="296" r="27"/>
+  </g>
+  <g stroke="#ffd166" stroke-width="12" stroke-linecap="round">
+    <path d="M842 188 L954 287"/>
+    <path d="M842 188 L1067 296"/>
+  </g>
+  <g fill="#ff5d5d" stroke="#111" stroke-width="8">
+    <path d="M160 408 l72 -24 l-23 75Z"/>
+    <path d="M934 407 l78 -25 l-24 80Z"/>
+  </g>
+  <rect x="48" y="40" width="500" height="110" rx="18" fill="#fff8ed" stroke="#111" stroke-width="10"/>
+  <text x="78" y="108" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#111">The Last Stand</text>
+  <rect x="650" y="398" width="488" height="78" rx="14" fill="#fff8ed" stroke="#111" stroke-width="9"/>
+  <text x="681" y="449" font-family="Arial, sans-serif" font-size="31" font-weight="900" fill="#111">Ballista, traps, monsters, waves</text>
+</svg>

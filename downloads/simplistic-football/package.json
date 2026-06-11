@@ -1,0 +1,10 @@
+{
+  "name": "simplistic-football",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser-playable Three.js 11v11 football game.",
+  "scripts": {
+    "start": "python3 -m http.server 4281",
+    "preview": "python3 -m http.server 4281"
+  }
+}

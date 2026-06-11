@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="OpenHV RTS preview">
+  <rect width="1200" height="525" fill="#182233"/>
+  <g opacity=".2" stroke="#fff" stroke-width="3"><path d="M0 75h1200M0 150h1200M0 225h1200M0 300h1200M0 375h1200M0 450h1200M75 0v525M150 0v525M225 0v525M300 0v525M375 0v525M450 0v525M525 0v525M600 0v525M675 0v525M750 0v525M825 0v525M900 0v525M975 0v525M1050 0v525M1125 0v525"/></g>
+  <g stroke="#111" stroke-width="8">
+    <rect x="146" y="292" width="162" height="104" rx="10" fill="#4cc9f0"/>
+    <path d="M190 292v-74h76v74" fill="#1982c4"/>
+    <rect x="470" y="162" width="190" height="116" rx="10" fill="#90be6d"/>
+    <path d="M520 162v-78h90v78" fill="#4d7c3d"/>
+    <rect x="824" y="296" width="170" height="82" rx="10" fill="#ffca3a"/>
+    <circle cx="866" cy="384" r="24" fill="#333"/><circle cx="954" cy="384" r="24" fill="#333"/>
+    <path d="M908 296l122-40" stroke="#ffca3a" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#fff">OpenHV</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#c5e86c">Free open-source sci-fi RTS</text>
+</svg>

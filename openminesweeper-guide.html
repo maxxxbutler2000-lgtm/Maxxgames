@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenMinesweeper Guide</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html#games" aria-label="Back to MaxxGames">
+        <span class="brand-mark">MG</span>
+        <span>MaxxGames</span>
+      </a>
+      <nav aria-label="Guide navigation">
+        <a href="index.html#games">Games</a>
+        <a href="#rules">Rules</a>
+        <a href="#strategy">Strategy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="guide-hero">
+        <div>
+          <p class="eyebrow">OpenMinesweeper</p>
+          <h1>Find every mine without clicking one.</h1>
+          <p>
+            Minesweeper is a logic puzzle. Numbers tell you how many mines touch
+            that square, and your job is to reveal all safe squares.
+          </p>
+          <a class="primary-action" href="index.html#games">Back to downloads</a>
+        </div>
+        <img src="assets/openminesweeper.png" alt="OpenMinesweeper gameplay screenshot showing a minesweeper grid">
+      </section>
+
+      <section class="guide-section" id="rules">
+        <div class="section-heading">
+          <p class="eyebrow">Basics</p>
+          <h2>How to play</h2>
+        </div>
+        <ol class="guide-list">
+          <li><strong>Reveal squares.</strong> Click covered tiles to uncover them.</li>
+          <li><strong>Read the numbers.</strong> A number means that many mines are touching the square.</li>
+          <li><strong>Mark suspected mines.</strong> Use flags on tiles you believe contain mines.</li>
+          <li><strong>Clear safe spaces.</strong> Use the numbers to figure out which hidden tiles are safe.</li>
+          <li><strong>Win the board.</strong> Reveal every safe tile without opening a mine.</li>
+        </ol>
+      </section>
+
+      <section class="guide-section" id="strategy">
+        <div class="section-heading">
+          <p class="eyebrow">Logic</p>
+          <h2>Useful patterns</h2>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card">
+            <h3>Exact count</h3>
+            <p>If a number touches the same amount of covered tiles as its value, all those covered tiles are mines.</p>
+          </article>
+          <article class="guide-card">
+            <h3>Already flagged</h3>
+            <p>If a number already has enough flagged mines touching it, every other covered tile touching that number is safe.</p>
+          </article>
+          <article class="guide-card">
+            <h3>Slow down</h3>
+            <p>Before guessing, scan nearby numbers. Minesweeper usually gives you a logical move somewhere else on the board.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

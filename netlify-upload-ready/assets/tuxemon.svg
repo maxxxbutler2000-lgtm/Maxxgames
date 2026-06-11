@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Tuxemon monster RPG preview">
+  <defs><linearGradient id="field" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#8fd0ff"/><stop offset=".55" stop-color="#dff6ff"/><stop offset=".56" stop-color="#6fc46f"/><stop offset="1" stop-color="#347a3e"/></linearGradient></defs>
+  <rect width="1200" height="525" fill="url(#field)"/>
+  <path d="M0 360c190-62 360-40 520-12c210 36 380-26 680-90v267H0Z" fill="#3f8f5f"/>
+  <g stroke="#111" stroke-width="8">
+    <circle cx="330" cy="270" r="76" fill="#f7f7ff"/>
+    <path d="M270 248q60-92 120 0" fill="#2f6fab"/>
+    <circle cx="306" cy="270" r="10" fill="#111"/><circle cx="354" cy="270" r="10" fill="#111"/>
+    <path d="M305 308q28 20 58 0" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="790" cy="282" r="82" fill="#ffca3a"/>
+    <path d="M730 238l-56-56M850 238l56-56" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="760" cy="278" r="10" fill="#111"/><circle cx="820" cy="278" r="10" fill="#111"/>
+    <path d="M770 322q24 16 48 0" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#111">Tuxemon</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#263238">Open-source monster RPG</text>
+</svg>

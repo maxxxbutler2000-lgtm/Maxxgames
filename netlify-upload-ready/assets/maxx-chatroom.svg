@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Maxx Chatroom preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#2e66d0"/>
+      <stop offset=".5" stop-color="#8cf0c7"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#bg)"/>
+  <rect x="58" y="48" width="1084" height="429" rx="28" fill="#fff" opacity=".86" stroke="#111" stroke-width="12"/>
+  <rect x="104" y="96" width="990" height="72" rx="16" fill="#101820" stroke="#111" stroke-width="8"/>
+  <text x="140" y="145" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#c5e86c">Maxx Chatroom</text>
+  <circle cx="1022" cy="132" r="17" fill="#c5e86c"/>
+  <text x="805" y="145" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">online</text>
+  <g font-family="Arial, sans-serif" font-weight="900" stroke="#111" stroke-width="7">
+    <rect x="132" y="210" width="430" height="76" rx="28" fill="#e7f3ed"/>
+    <text x="172" y="260" font-size="31" fill="#111" stroke="none">What game are we playing?</text>
+    <rect x="638" y="222" width="406" height="76" rx="28" fill="#ffe4ef"/>
+    <text x="684" y="272" font-size="31" fill="#111" stroke="none">Tower defense first.</text>
+    <rect x="132" y="324" width="512" height="76" rx="28" fill="#e7f0ff"/>
+    <text x="172" y="374" font-size="31" fill="#111" stroke="none">Join with a nickname.</text>
+  </g>
+  <rect x="724" y="340" width="250" height="58" rx="16" fill="#ff5d8f" stroke="#111" stroke-width="8"/>
+  <text x="849" y="379" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#111">Send</text>
+  <path d="M988 342l72 28l-72 28z" fill="#ffd166" stroke="#111" stroke-width="8"/>
+</svg>

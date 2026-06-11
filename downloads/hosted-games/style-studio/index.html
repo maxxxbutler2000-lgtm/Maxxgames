@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Studio</title>
+    <style>
+      :root {
+        --ink: #222128;
+        --paper: #fff8f4;
+        --hot: #ff5d8f;
+        --mint: #85e3c5;
+        --sky: #89b8ff;
+        --sun: #ffd166;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #ffe4ef, #e7f5ff 55%, #fff6cf);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(1120px, calc(100% - 28px));
+        margin: 0 auto;
+        padding: 22px 0 34px;
+      }
+
+      header {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 16px;
+      }
+
+      h1,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 7vw, 4.8rem);
+        line-height: 0.92;
+      }
+
+      .score {
+        min-width: 150px;
+        padding: 10px 12px;
+        border: 3px solid #111;
+        border-radius: 8px;
+        background: #fff;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .game {
+        display: grid;
+        grid-template-columns: minmax(260px, 440px) minmax(0, 1fr);
+        gap: 16px;
+      }
+
+      .stage,
+      .panel {
+        border: 3px solid #111;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.78);
+        box-shadow: 8px 8px 0 rgba(17, 17, 17, 0.15);
+      }
+
+      .stage {
+        position: relative;
+        min-height: 590px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.95) 0 55px, transparent 56px),
+          linear-gradient(180deg, var(--sky), #fff 52%, #ffdce9);
+      }
+
+      .stage.party {
+        background: linear-gradient(135deg, #37246f, #ff69a6 60%, #ffd166);
+      }
+
+      .stage.beach {
+        background: linear-gradient(180deg, #7ed7ff 0 48%, #ffe08a 49% 100%);
+      }
+
+      .stage.cozy {
+        background: linear-gradient(135deg, #f8c8dc, #ffe6c7 48%, #b8f2d8);
+      }
+
+      .bubble {
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        bottom: 14px;
+        padding: 12px;
+        border: 3px solid #111;
+        border-radius: 8px;
+        background: #fff;
+        font-weight: 850;
+      }
+
+      .avatar {
+        position: absolute;
+        left: 50%;
+        bottom: 94px;
+        width: 250px;
+        height: 430px;
+        transform: translateX(-50%);
+      }
+
+      .hair {
+        position: absolute;
+        left: 54px;
+        top: 14px;
+        width: 142px;
+        height: 168px;
+        border: 4px solid #111;
+        border-radius: 60px 60px 42px 42px;
+        background: #47312d;
+      }
+
+      .head {
+        position: absolute;
+        left: 72px;
+        top: 54px;
+        width: 106px;
+        height: 122px;
+        border: 4px solid #111;
+        border-radius: 48% 48% 44% 44%;
+        background: #f0b68e;
+      }
+
+      .eye {
+        position: absolute;
+        top: 102px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #111;
+      }
+
+      .eye.left {
+        left: 102px;
+      }
+
+      .eye.right {
+        left: 139px;
+      }
+
+      .cheek {
+        position: absolute;
+        top: 124px;
+        width: 22px;
+        height: 10px;
+        border-radius: 999px;
+        background: #ff99ad;
+      }
+
+      .cheek.left {
+        left: 88px;
+      }
+
+      .cheek.right {
+        left: 150px;
+      }
+
+      .mouth {
+        position: absolute;
+        left: 118px;
+        top: 142px;
+        width: 28px;
+        height: 12px;
+        border-bottom: 4px solid #9e2a47;
+        border-radius: 0 0 999px 999px;
+      }
+
+      .torso {
+        position: absolute;
+        left: 70px;
+        top: 182px;
+        width: 112px;
+        height: 128px;
+        border: 4px solid #111;
+        border-radius: 24px 24px 12px 12px;
+        background: var(--hot);
+      }
+
+      .skirt {
+        position: absolute;
+        left: 45px;
+        top: 282px;
+        width: 162px;
+        height: 92px;
+        border: 4px solid #111;
+        clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
+        background: #7c5cff;
+      }
+
+      .arm,
+      .leg {
+        position: absolute;
+        border: 4px solid #111;
+        background: #f0b68e;
+      }
+
+      .arm {
+        top: 194px;
+        width: 38px;
+        height: 122px;
+        border-radius: 999px;
+      }
+
+      .arm.left {
+        left: 32px;
+        transform: rotate(14deg);
+      }
+
+      .arm.right {
+        right: 32px;
+        transform: rotate(-14deg);
+      }
+
+      .leg {
+        top: 362px;
+        width: 36px;
+        height: 68px;
+        border-radius: 999px 999px 18px 18px;
+      }
+
+      .leg.left {
+        left: 86px;
+      }
+
+      .leg.right {
+        left: 132px;
+      }
+
+      .accessory {
+        position: absolute;
+        left: 182px;
+        top: 66px;
+        width: 58px;
+        height: 58px;
+        display: grid;
+        place-items: center;
+        border: 4px solid #111;
+        border-radius: 50%;
+        background: var(--sun);
+        font-weight: 900;
+      }
+
+      .panel {
+        padding: 16px;
+      }
+
+      .challenge {
+        margin-bottom: 14px;
+        padding: 12px;
+        border: 3px solid #111;
+        border-radius: 8px;
+        background: #fff;
+        font-weight: 900;
+      }
+
+      .tools {
+        display: grid;
+        gap: 14px;
+      }
+
+      fieldset {
+        margin: 0;
+        padding: 12px;
+        border: 2px solid #111;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.72);
+      }
+
+      legend {
+        padding: 0 6px;
+        font-weight: 900;
+      }
+
+      .choices {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(92px, 1fr));
+        gap: 8px;
+      }
+
+      button {
+        min-height: 42px;
+        border: 2px solid #111;
+        border-radius: 8px;
+        background: #fff;
+        color: #111;
+        font: inherit;
+        font-weight: 850;
+        cursor: pointer;
+      }
+
+      button:hover,
+      button.active {
+        background: #111;
+        color: #fff;
+      }
+
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 14px;
+      }
+
+      .primary {
+        background: var(--hot);
+      }
+
+      @media (max-width: 760px) {
+        header,
+        .game {
+          grid-template-columns: 1fr;
+        }
+
+        header {
+          align-items: start;
+        }
+
+        .stage {
+          min-height: 520px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p><strong>MaxxGames</strong></p>
+          <h1>Style Studio</h1>
+        </div>
+        <div class="score" id="score">Style score: 0</div>
+      </header>
+
+      <section class="game" aria-label="Style Studio game">
+        <div class="stage cozy" id="stage">
+          <div class="avatar" aria-hidden="true">
+            <div class="hair" id="hair"></div>
+            <div class="head"></div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="cheek left" id="cheekLeft"></div>
+            <div class="cheek right" id="cheekRight"></div>
+            <div class="mouth"></div>
+            <div class="arm left"></div>
+            <div class="arm right"></div>
+            <div class="torso" id="top"></div>
+            <div class="skirt" id="bottom"></div>
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+            <div class="accessory" id="accessory">Bow</div>
+          </div>
+          <p class="bubble" id="result">Pick a challenge, style the look, then press Finish Look.</p>
+        </div>
+
+        <div class="panel">
+          <div class="challenge" id="challenge">Challenge: Cozy mall outfit</div>
+          <div class="tools">
+            <fieldset>
+              <legend>Hair</legend>
+              <div class="choices" data-kind="hair">
+                <button data-value="#47312d" class="active">Brown</button>
+                <button data-value="#111111">Black</button>
+                <button data-value="#f2c14e">Blonde</button>
+                <button data-value="#ff70a6">Pink</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Makeup</legend>
+              <div class="choices" data-kind="makeup">
+                <button data-value="#ff99ad" class="active">Soft</button>
+                <button data-value="#ff4d6d">Pop</button>
+                <button data-value="#9b5de5">Purple</button>
+                <button data-value="#ffb703">Gold</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Outfit</legend>
+              <div class="choices" data-kind="outfit">
+                <button data-top="#ff5d8f" data-bottom="#7c5cff" class="active">Cute</button>
+                <button data-top="#2ec4b6" data-bottom="#ffbf69">Beach</button>
+                <button data-top="#111111" data-bottom="#ff5d8f">Party</button>
+                <button data-top="#6c757d" data-bottom="#b8f2e6">Cozy</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Accessory</legend>
+              <div class="choices" data-kind="accessory">
+                <button data-value="Bow" class="active">Bow</button>
+                <button data-value="Bag">Bag</button>
+                <button data-value="Star">Star</button>
+                <button data-value="Crown">Crown</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="actions">
+            <button class="primary" id="finish">Finish Look</button>
+            <button id="newChallenge">New Challenge</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        hair: "Brown",
+        makeup: "Soft",
+        outfit: "Cute",
+        accessory: "Bow",
+        challenge: 0,
+        score: 0
+      };
+
+      const challenges = [
+        { name: "Cozy mall outfit", wants: ["Cozy", "Soft", "Bag"], bg: "cozy" },
+        { name: "Beach day look", wants: ["Beach", "Gold", "Star"], bg: "beach" },
+        { name: "Party stage outfit", wants: ["Party", "Pop", "Crown"], bg: "party" },
+        { name: "Cute photo day", wants: ["Cute", "Purple", "Bow"], bg: "cozy" }
+      ];
+
+      const hair = document.querySelector("#hair");
+      const topPiece = document.querySelector("#top");
+      const bottom = document.querySelector("#bottom");
+      const cheekLeft = document.querySelector("#cheekLeft");
+      const cheekRight = document.querySelector("#cheekRight");
+      const accessory = document.querySelector("#accessory");
+      const score = document.querySelector("#score");
+      const result = document.querySelector("#result");
+      const challengeText = document.querySelector("#challenge");
+      const stage = document.querySelector("#stage");
+
+      function setActive(button) {
+        button.parentElement.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
+        button.classList.add("active");
+      }
+
+      document.querySelectorAll(".choices button").forEach((button) => {
+        button.addEventListener("click", () => {
+          setActive(button);
+          const kind = button.parentElement.dataset.kind;
+          if (kind === "hair") {
+            state.hair = button.textContent;
+            hair.style.background = button.dataset.value;
+          }
+          if (kind === "makeup") {
+            state.makeup = button.textContent;
+            cheekLeft.style.background = button.dataset.value;
+            cheekRight.style.background = button.dataset.value;
+          }
+          if (kind === "outfit") {
+            state.outfit = button.textContent;
+            topPiece.style.background = button.dataset.top;
+            bottom.style.background = button.dataset.bottom;
+          }
+          if (kind === "accessory") {
+            state.accessory = button.dataset.value;
+            accessory.textContent = button.dataset.value;
+          }
+        });
+      });
+
+      function showChallenge() {
+        const current = challenges[state.challenge];
+        challengeText.textContent = `Challenge: ${current.name}`;
+        stage.className = `stage ${current.bg}`;
+        result.textContent = "Style the outfit to match the challenge.";
+      }
+
+      document.querySelector("#newChallenge").addEventListener("click", () => {
+        state.challenge = (state.challenge + 1) % challenges.length;
+        showChallenge();
+      });
+
+      document.querySelector("#finish").addEventListener("click", () => {
+        const current = challenges[state.challenge];
+        const picked = [state.outfit, state.makeup, state.accessory];
+        const hits = current.wants.filter((want) => picked.includes(want)).length;
+        const points = hits === 3 ? 100 : hits === 2 ? 60 : 25;
+        state.score += points;
+        score.textContent = `Style score: ${state.score}`;
+        result.textContent = hits === 3
+          ? "Perfect match. The look is runway ready."
+          : `Nice look. You matched ${hits} of 3 style hints.`;
+      });
+
+      showChallenge();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Teeworlds multiplayer shooter preview">
+  <defs><linearGradient id="twsky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#85d7ff"/><stop offset=".62" stop-color="#e0f7ff"/><stop offset=".63" stop-color="#5fb85f"/><stop offset="1" stop-color="#347a3e"/></linearGradient></defs>
+  <rect width="1200" height="525" fill="url(#twsky)"/>
+  <g fill="#7b4f2f" stroke="#111" stroke-width="8"><rect x="70" y="350" width="300" height="76" rx="12"/><rect x="520" y="270" width="280" height="76" rx="12"/><rect x="890" y="360" width="230" height="76" rx="12"/></g>
+  <g stroke="#111" stroke-width="8">
+    <circle cx="250" cy="296" r="48" fill="#ffca3a"/><circle cx="236" cy="286" r="8" fill="#111"/><circle cx="266" cy="286" r="8" fill="#111"/><path d="M250 296l142-44" stroke="#ff595e" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="730" cy="220" r="48" fill="#4cc9f0"/><circle cx="716" cy="210" r="8" fill="#111"/><circle cx="746" cy="210" r="8" fill="#111"/><path d="M730 220l-120 54" stroke="#4cc9f0" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="80" font-weight="900" fill="#111">Teeworlds</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#263238">Cute fast multiplayer shooter</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="OpenClonk action sandbox preview">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#77c6ff"/>
+      <stop offset=".48" stop-color="#dff6ff"/>
+      <stop offset=".49" stop-color="#5da85a"/>
+      <stop offset="1" stop-color="#7b4f2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#sky)"/>
+  <path d="M0 338c130-42 248-20 348 0c168 34 250-50 416-20c172 30 272 12 436-54v261H0Z" fill="#70462f"/>
+  <path d="M0 338c130-42 248-20 348 0c168 34 250-50 416-20c172 30 272 12 436-54" fill="none" stroke="#3c8f4b" stroke-width="48"/>
+  <g stroke="#111" stroke-width="8">
+    <circle cx="312" cy="258" r="32" fill="#ffd6a5"/>
+    <rect x="282" y="292" width="60" height="86" rx="18" fill="#457b9d"/>
+    <path d="M276 326l-66 36M348 326l72-54" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <path d="M420 272l52-26" stroke="#ffca3a" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="730" cy="232" r="32" fill="#ffd6a5"/>
+    <rect x="700" y="266" width="60" height="86" rx="18" fill="#e63946"/>
+    <path d="M700 304l-72 22M762 304l70 38" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <path d="M836 342l72 0" stroke="#90be6d" stroke-width="18" stroke-linecap="round"/>
+    <rect x="876" y="186" width="150" height="96" rx="10" fill="#8d6e63"/>
+    <path d="M860 186h182l-38-54h-106Z" fill="#5d4037"/>
+  </g>
+  <text x="64" y="106" font-family="Arial, sans-serif" font-size="70" font-weight="900" fill="#111">OpenClonk</text>
+  <text x="68" y="158" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#263238">Action sandbox, mining, building, fighting</text>
+</svg>

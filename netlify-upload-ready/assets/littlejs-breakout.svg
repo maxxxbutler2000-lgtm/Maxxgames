@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="LittleJS Breakout preview">
+  <rect width="1200" height="525" fill="#101820"/>
+  <g stroke="#111" stroke-width="8">
+    <rect x="120" y="86" width="156" height="58" rx="8" fill="#ff595e"/>
+    <rect x="294" y="86" width="156" height="58" rx="8" fill="#ffca3a"/>
+    <rect x="468" y="86" width="156" height="58" rx="8" fill="#8ac926"/>
+    <rect x="642" y="86" width="156" height="58" rx="8" fill="#4cc9f0"/>
+    <rect x="816" y="86" width="156" height="58" rx="8" fill="#9b5de5"/>
+    <rect x="206" y="166" width="156" height="58" rx="8" fill="#f15bb5"/>
+    <rect x="380" y="166" width="156" height="58" rx="8" fill="#fee440"/>
+    <rect x="554" y="166" width="156" height="58" rx="8" fill="#00f5d4"/>
+    <rect x="728" y="166" width="156" height="58" rx="8" fill="#00bbf9"/>
+    <circle cx="650" cy="318" r="28" fill="#fff"/>
+    <rect x="452" y="404" width="296" height="42" rx="21" fill="#ffd166"/>
+  </g>
+  <path d="M650 318l-100 86" stroke="#fff" stroke-width="7" stroke-dasharray="14 12"/>
+  <text x="76" y="118" font-family="Arial, sans-serif" font-size="68" font-weight="900" fill="#fff">LittleJS Breakout</text>
+  <text x="80" y="462" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#c5e86c">Simple arcade brick smashing</text>
+</svg>

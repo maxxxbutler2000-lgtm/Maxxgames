@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Destination Sol space RPG preview">
+  <rect width="1200" height="525" fill="#070b18"/>
+  <g fill="#fff" opacity=".8"><circle cx="90" cy="80" r="3"/><circle cx="220" cy="190" r="2"/><circle cx="410" cy="78" r="3"/><circle cx="690" cy="150" r="2"/><circle cx="890" cy="74" r="3"/><circle cx="1080" cy="214" r="2"/><circle cx="970" cy="420" r="3"/><circle cx="530" cy="430" r="2"/><circle cx="300" cy="392" r="3"/></g>
+  <circle cx="930" cy="300" r="96" fill="#3a86ff" opacity=".55"/>
+  <circle cx="930" cy="300" r="58" fill="#90e0ef" opacity=".72"/>
+  <g stroke="#111" stroke-width="8">
+    <path d="M236 278l170-86l-44 86l44 86Z" fill="#ffd166"/>
+    <path d="M336 278h210" stroke="#ff595e" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="572" cy="278" r="18" fill="#ff595e"/>
+    <path d="M712 186l78 42l-40 26l42 48l-82-28l-54 38l22-66l-46-42Z" fill="#8ac926"/>
+  </g>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="68" font-weight="900" fill="#fff">Destination Sol</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#bde0fe">Open-source space arcade RPG</text>
+</svg>

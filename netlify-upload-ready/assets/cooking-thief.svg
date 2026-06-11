@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Cooking Thief action cooking game preview">
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#20283b"/>
+      <stop offset=".58" stop-color="#36435f"/>
+      <stop offset="1" stop-color="#171b28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#room)"/>
+  <g opacity=".25" stroke="#fff" stroke-width="4">
+    <path d="M0 120h1200M0 240h1200M0 360h1200M120 0v525M240 0v525M360 0v525M480 0v525M600 0v525M720 0v525M840 0v525M960 0v525M1080 0v525"/>
+  </g>
+  <rect x="70" y="55" width="1060" height="415" rx="28" fill="#f3efe4" opacity=".88" stroke="#111" stroke-width="12"/>
+  <rect x="120" y="312" width="960" height="96" rx="20" fill="#5b3a29" stroke="#111" stroke-width="9"/>
+  <g stroke="#111" stroke-width="9">
+    <circle cx="280" cy="255" r="62" fill="#24242c"/>
+    <rect x="250" y="310" width="60" height="92" rx="20" fill="#24242c"/>
+    <path d="M250 236l-46-22l18-38l58 26z" fill="#111"/>
+    <path d="M314 300l88-56" stroke="#d62828" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="652" cy="308" rx="116" ry="42" fill="#313638"/>
+    <path d="M548 300h208l-30 92H578Z" fill="#59656f"/>
+    <ellipse cx="652" cy="300" rx="104" ry="34" fill="#1f2528"/>
+    <path d="M600 280c10-38 38-48 28-92M662 280c25-45 54-42 38-104M714 280c18-32 34-44 26-76" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+    <circle cx="932" cy="266" r="48" fill="#f77f00"/>
+    <path d="M914 250h36M932 232v36" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="118" y="145" font-family="Arial, sans-serif" font-size="68" font-weight="900" fill="#111">Cooking Thief</text>
+  <text x="122" y="195" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#3f4658">Sneak, fight, and make soup</text>
+  <rect x="760" y="80" width="282" height="66" rx="16" fill="#111"/>
+  <text x="901" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#ffd166">MIT source</text>
+</svg>

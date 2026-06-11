@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Amazing Track minimalist runner preview">
+  <defs>
+    <linearGradient id="space" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#101820"/>
+      <stop offset=".52" stop-color="#284b63"/>
+      <stop offset="1" stop-color="#0b132b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#space)"/>
+  <g opacity=".16" stroke="#fff" stroke-width="3">
+    <path d="M0 100h1200M0 200h1200M0 300h1200M0 400h1200M100 0v525M200 0v525M300 0v525M400 0v525M500 0v525M600 0v525M700 0v525M800 0v525M900 0v525M1000 0v525M1100 0v525"/>
+  </g>
+  <path d="M164 392 L380 300 L552 338 L726 216 L1008 154" fill="none" stroke="#f7f7ff" stroke-width="82" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 392 L380 300 L552 338 L726 216 L1008 154" fill="none" stroke="#06d6a0" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(540 298) rotate(-12)" stroke="#111" stroke-width="8">
+    <rect x="-34" y="-34" width="68" height="68" rx="10" fill="#ffbe0b"/>
+    <path d="M-16 0h32M0-16v32" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="106" font-family="Arial, sans-serif" font-size="70" font-weight="900" fill="#fff">Amazing Track</text>
+  <text x="74" y="158" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#a7f3d0">One-button minimalist runner</text>
+</svg>

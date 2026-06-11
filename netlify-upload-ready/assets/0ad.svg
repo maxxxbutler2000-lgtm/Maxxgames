@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="0 A.D. ancient warfare RTS preview">
+  <defs><linearGradient id="sand" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f0c987"/><stop offset=".55" stop-color="#b8874a"/><stop offset="1" stop-color="#5c3a25"/></linearGradient></defs>
+  <rect width="1200" height="525" fill="url(#sand)"/>
+  <path d="M0 360c170-82 330-42 480-70c210-40 370-116 720-62v297H0Z" fill="#805a35"/>
+  <g stroke="#111" stroke-width="8">
+    <rect x="122" y="230" width="250" height="150" rx="10" fill="#c9a66b"/>
+    <path d="M100 230h294l-46-68H146Z" fill="#8d653b"/>
+    <rect x="206" y="282" width="70" height="98" fill="#51331f"/>
+    <circle cx="716" cy="252" r="34" fill="#f2c08f"/>
+    <rect x="684" y="290" width="64" height="98" rx="10" fill="#b22222"/>
+    <path d="M754 316l96-64M678 316l-82 52" stroke="#5c3a25" stroke-width="16" stroke-linecap="round"/>
+    <path d="M850 252l62-16l-34 54Z" fill="#d4af37"/>
+    <circle cx="956" cy="260" r="42" fill="#394867"/><path d="M956 218v84M914 260h84" stroke="#d4af37" stroke-width="8"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="82" font-weight="900" fill="#111">0 A.D.</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#3b2417">Ancient warfare RTS</text>
+</svg>

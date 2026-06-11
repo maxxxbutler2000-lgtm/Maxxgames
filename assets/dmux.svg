@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="DMUX derby shooter preview">
+  <defs><linearGradient id="arena" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#76b7d8"/><stop offset=".45" stop-color="#d3d3d3"/><stop offset="1" stop-color="#7b6d5d"/></linearGradient></defs>
+  <rect width="1200" height="525" fill="url(#arena)"/>
+  <ellipse cx="600" cy="335" rx="470" ry="126" fill="#7b6d5d" stroke="#111" stroke-width="10"/>
+  <ellipse cx="600" cy="335" rx="330" ry="70" fill="#a99478" stroke="#111" stroke-width="7"/>
+  <g stroke="#111" stroke-width="8">
+    <g transform="translate(300 270) rotate(-12)"><rect x="0" y="0" width="190" height="80" rx="18" fill="#ff595e"/><circle cx="42" cy="86" r="20" fill="#222"/><circle cx="144" cy="86" r="20" fill="#222"/><path d="M150 12l76-34" stroke="#ff595e" stroke-width="16" stroke-linecap="round"/></g>
+    <g transform="translate(690 270) rotate(15)"><rect x="0" y="0" width="190" height="80" rx="18" fill="#4cc9f0"/><circle cx="42" cy="86" r="20" fill="#222"/><circle cx="144" cy="86" r="20" fill="#222"/><path d="M40 12l-78-34" stroke="#4cc9f0" stroke-width="16" stroke-linecap="round"/></g>
+    <circle cx="568" cy="290" r="22" fill="#ffd166"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="78" font-weight="900" fill="#111">DMUX</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#263238">Free/libre 3D derby combat</text>
+</svg>

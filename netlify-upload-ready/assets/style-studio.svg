@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Style Studio gameplay preview">
+  <rect width="1200" height="525" fill="#ffe4ef"/>
+  <rect x="0" y="0" width="1200" height="525" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ff8cb3"/>
+      <stop offset=".55" stop-color="#8fd3ff"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect x="42" y="42" width="1116" height="441" rx="28" fill="#fff" opacity=".76" stroke="#111" stroke-width="12"/>
+  <circle cx="205" cy="132" r="54" fill="#fff7ad" stroke="#111" stroke-width="10"/>
+  <path d="M649 148h415M649 218h340M649 288h385M649 358h250" stroke="#111" stroke-width="24" stroke-linecap="round" opacity=".18"/>
+  <g transform="translate(302 65)">
+    <path d="M122 8c89 0 119 67 105 183H18C-4 74 34 8 122 8Z" fill="#4b2d2c" stroke="#111" stroke-width="12"/>
+    <ellipse cx="122" cy="118" rx="75" ry="86" fill="#efb38b" stroke="#111" stroke-width="12"/>
+    <circle cx="92" cy="118" r="10" fill="#111"/>
+    <circle cx="152" cy="118" r="10" fill="#111"/>
+    <ellipse cx="76" cy="150" rx="22" ry="10" fill="#ff7597"/>
+    <ellipse cx="168" cy="150" rx="22" ry="10" fill="#ff7597"/>
+    <path d="M105 164q18 20 38 0" fill="none" stroke="#9e2a47" stroke-width="8" stroke-linecap="round"/>
+    <rect x="54" y="200" width="136" height="118" rx="26" fill="#ff5d8f" stroke="#111" stroke-width="12"/>
+    <path d="M45 304h154l46 96H0Z" fill="#7c5cff" stroke="#111" stroke-width="12"/>
+    <rect x="203" y="52" width="76" height="76" rx="38" fill="#ffd166" stroke="#111" stroke-width="10"/>
+    <text x="241" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#111">Bow</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="900" fill="#111">
+    <text x="650" y="154" font-size="62">Style Studio</text>
+    <text x="650" y="232" font-size="34">Makeup, outfits, hair, and challenges</text>
+    <rect x="650" y="285" width="162" height="58" rx="12" fill="#ff5d8f" stroke="#111" stroke-width="8"/>
+    <rect x="834" y="285" width="162" height="58" rx="12" fill="#2ec4b6" stroke="#111" stroke-width="8"/>
+    <rect x="1018" y="285" width="72" height="58" rx="12" fill="#ffd166" stroke="#111" stroke-width="8"/>
+    <text x="731" y="324" text-anchor="middle" font-size="24">Cute</text>
+    <text x="915" y="324" text-anchor="middle" font-size="24">Beach</text>
+    <text x="1054" y="324" text-anchor="middle" font-size="24">Star</text>
+  </g>
+</svg>

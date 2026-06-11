@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Hypersomnia top-down shooter preview">
+  <rect width="1200" height="525" fill="#14151c"/>
+  <g opacity=".22" stroke="#fff" stroke-width="3"><path d="M0 88h1200M0 176h1200M0 264h1200M0 352h1200M0 440h1200M100 0v525M200 0v525M300 0v525M400 0v525M500 0v525M600 0v525M700 0v525M800 0v525M900 0v525M1000 0v525M1100 0v525"/></g>
+  <g stroke="#111" stroke-width="8">
+    <rect x="120" y="170" width="248" height="86" rx="12" fill="#2f3645"/>
+    <rect x="770" y="294" width="288" height="86" rx="12" fill="#2f3645"/>
+    <circle cx="432" cy="300" r="38" fill="#4cc9f0"/>
+    <path d="M432 300l146-70" stroke="#4cc9f0" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="710" cy="212" r="38" fill="#ff595e"/>
+    <path d="M710 212l-120 46" stroke="#ff595e" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="590" cy="258" r="16" fill="#ffd166"/>
+  </g>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#fff">Hypersomnia</text>
+  <text x="74" y="164" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#a7f3d0">Competitive top-down shooter</text>
+</svg>

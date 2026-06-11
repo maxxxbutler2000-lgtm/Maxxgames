@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="LittleJS Platformer preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset=".62" stop-color="#dff6ff"/>
+      <stop offset=".63" stop-color="#5fb85f"/>
+      <stop offset="1" stop-color="#2f6f3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="525" fill="url(#bg)"/>
+  <g fill="#7b4f2f" stroke="#111" stroke-width="8">
+    <rect x="58" y="386" width="260" height="70" rx="8"/>
+    <rect x="430" y="300" width="250" height="70" rx="8"/>
+    <rect x="802" y="220" width="280" height="70" rx="8"/>
+  </g>
+  <g stroke="#111" stroke-width="8">
+    <rect x="182" y="304" width="62" height="62" rx="12" fill="#ffca3a"/>
+    <circle cx="204" cy="326" r="7" fill="#111"/>
+    <circle cx="230" cy="326" r="7" fill="#111"/>
+    <path d="M202 348q15 12 32 0" fill="none" stroke="#111" stroke-width="6"/>
+    <rect x="530" y="234" width="48" height="48" rx="8" fill="#ff595e"/>
+    <rect x="910" y="154" width="48" height="48" rx="8" fill="#8ac926"/>
+  </g>
+  <text x="72" y="116" font-family="Arial, sans-serif" font-size="66" font-weight="900" fill="#111">LittleJS Platformer</text>
+  <text x="76" y="168" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#263238">Fast, clean platform jumping</text>
+</svg>
