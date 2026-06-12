@@ -1,5 +1,13 @@
 [
   [
+    "style-studio",
+    "assets/gameplay/style-studio.webp"
+  ],
+  [
+    "nail-studio",
+    "assets/gameplay/nail-studio.webp"
+  ],
+  [
     "sizzle",
     "assets/gameplay/sizzle.webp"
   ],
@@ -20,8 +28,28 @@
     "assets/gameplay/amazing-track.webp"
   ],
   [
+    "xquest",
+    "assets/gameplay/xquest.webp"
+  ],
+  [
+    "littlejs-platformer",
+    "assets/gameplay/littlejs-platformer.webp"
+  ],
+  [
+    "littlejs-breakout",
+    "assets/gameplay/littlejs-breakout.webp"
+  ],
+  [
+    "hypersomnia",
+    "assets/gameplay/hypersomnia.webp"
+  ],
+  [
     "openhv",
     "assets/gameplay/openhv.webp"
+  ],
+  [
+    "destination-sol",
+    "assets/gameplay/destination-sol.webp"
   ],
   [
     "tuxemon",
@@ -40,8 +68,16 @@
     "assets/gameplay/lix.webp"
   ],
   [
+    "open-td",
+    "assets/gameplay/open-td.webp"
+  ],
+  [
     "kimilao-tower-defense",
     "assets/gameplay/kimilao-tower-defense.webp"
+  ],
+  [
+    "defense-mania",
+    "assets/gameplay/defense-mania.webp"
   ],
   [
     "the-last-stand-td",
