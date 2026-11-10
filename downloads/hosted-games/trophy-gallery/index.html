@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trophy Gallery · MaxxGames</title>
+<link rel="stylesheet" href="style.css">
+<script src="extended-tiers.js" defer></script>
+<script src="game.js" defer></script>
+</head>
+<body>
+<main aria-label="Trophy Gallery">
+  <div class="gallery-sign"><span>MAXXGAMES</span><h1>Trophy Gallery</h1></div>
+  <div class="tools">
+    <button id="book-toggle" aria-expanded="false" aria-controls="book" aria-label="Open trophy collection" title="Trophy collection">📖</button>
+    <button id="sounds" aria-pressed="true" aria-label="Sound effects on" title="Sound effects">🔊</button>
+    <button id="music" title="Background music" aria-pressed="false" aria-label="Music off">♫</button>
+    <button id="fullscreen" aria-label="Enter fullscreen">⛶</button>
+    <a href="../../../index.html" target="_top" aria-label="Exit to MaxxGames">↗</a>
+  </div>
+  <div class="plaque"><strong>Level <span id="level">1</span></strong><progress id="xp" aria-label="Experience"></progress><small id="xp-label"></small></div>
+  <div id="board" class="board" aria-label="Gallery floor, five by five pedestals"></div>
+  <div class="counter">
+    <div class="earnings"><strong>◈ <span id="coins"></span></strong><small id="rate"></small></div>
+    <button id="buy"><b>＋ Buy trophy</b><span id="price"></span></button>
+  </div>
+  <details id="shop-picker">
+    <summary title="Choose which trophy to buy">Shop tiers</summary>
+    <label for="shop-choice">Trophy to buy</label>
+    <select id="shop-choice"><option value="">Highest available</option></select>
+  </details>
+  <button id="trash" aria-label="Discard selected trophy" title="Select a trophy or drag it here to discard">🗑</button>
+  <aside id="book" aria-labelledby="book-title" hidden>
+    <header><h2 id="book-title">Trophy collection</h2><button id="book-close" aria-label="Close trophy collection">×</button></header>
+    <div class="book-summary">
+      <p id="book-count"></p>
+      <select id="book-filter" aria-label="Filter trophy collection">
+        <option value="crafted">Crafted</option>
+        <option value="all">All tiers</option>
+      </select>
+    </div>
+    <div id="book-entries"></div>
+  </aside>
+  <p id="notice" role="status">Drag matching trophies together, or tap one and then its twin.</p>
+  <dialog id="secret-panel" aria-labelledby="secret-title">
+    <h2 id="secret-title">Secret trophy spawner</h2>
+    <form id="spawn-form">
+      <label for="spawn-tier">Trophy tier</label>
+      <input id="spawn-tier" type="number" min="1" value="1" step="1" required autofocus>
+      <p id="spawn-preview" aria-live="polite"></p>
+      <button type="submit">Spawn trophy</button>
+      <button id="spawn-close" type="button">Close</button>
+    </form>
+    <p id="spawn-status" role="status"></p>
+  </dialog>
+  <dialog id="reveal" aria-labelledby="reveal-name">
+    <p class="reveal-kicker">Trophy crafted</p>
+    <h2 id="reveal-name"></h2>
+    <img id="reveal-art" alt="">
+    <dl>
+      <div><dt>Tier</dt><dd id="reveal-tier"></dd></div>
+      <div><dt>Coins per second</dt><dd id="reveal-income"></dd></div>
+      <div><dt>Merge XP</dt><dd id="reveal-xp"></dd></div>
+    </dl>
+    <p id="reveal-note" hidden></p>
+    <form method="dialog"><button autofocus>Back to the bedroom</button></form>
+  </dialog>
+  <div id="celebration" popover="manual" aria-hidden="true"></div>
+</main>
+</body>
+</html>
